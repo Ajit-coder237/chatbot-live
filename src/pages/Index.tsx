@@ -12,7 +12,7 @@ const Index = () => {
           {/* Hero Section */}
           <div className="text-center space-y-4 mb-8">
             <h1 className="text-4xl md:text-5xl font-bold gradient-text">
-              Chat with Chatbot 😉
+              IEC's AI Assistant
             </h1>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
               Experience the power of Google Gemini AI in a beautiful, intuitive interface. 

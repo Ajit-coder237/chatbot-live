@@ -10,7 +10,7 @@ export const Header = () => {
             <Brain className="w-7 h-7 text-white" />
           </div>
           <div>
-            <h1 className="text-xl font-bold gradient-text">BRK AI Chat</h1>
+            <h1 className="text-xl font-bold gradient-text">IEC AI Chat</h1>
             <p className="text-sm text-muted-foreground">Powered by Gemini AI</p>
           </div>
         </div>
