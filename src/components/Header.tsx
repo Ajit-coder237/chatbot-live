@@ -22,7 +22,7 @@ export const Header = () => {
             className="text-muted-foreground hover:text-foreground transition-colors"
             asChild
           >
-            <a href="mailto:bedrajkhadka@example.com" aria-label="Email">
+            <a href="mailto:contact@iec.com" aria-label="Email">
               <Mail className="w-4 h-4" />
             </a>
           </Button>
@@ -32,7 +32,7 @@ export const Header = () => {
             className="text-muted-foreground hover:text-foreground transition-colors"
             asChild
           >
-            <a href="https://linkedin.com/in/bedrajkhadka" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://linkedin.com/company/iec" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <Linkedin className="w-4 h-4" />
             </a>
           </Button>
@@ -42,7 +42,7 @@ export const Header = () => {
             className="text-muted-foreground hover:text-foreground transition-colors"
             asChild
           >
-            <a href="https://github.com/bedrajkhadka" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/iec" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <Github className="w-4 h-4" />
             </a>
           </Button>
