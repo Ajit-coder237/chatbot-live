@@ -19,7 +19,7 @@ export const ChatInterface = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      content: "Hello! I'm Bed Raj Khadka's AI assistant. How can I help you today?",
+      content: "Hello! I'm IEC's AI assistant. How can I help you today?",
       sender: 'bot',
       timestamp: new Date()
     }
@@ -65,7 +65,7 @@ export const ChatInterface = () => {
         body: JSON.stringify({
           contents: [{
             parts: [{
-              text: `You are Bed Raj Khadka's personal AI assistant. Respond helpfully and professionally. User query: ${userMessage.content}`
+              text: `You are IEC's personal AI assistant. Respond helpfully and professionally. User query: ${userMessage.content}`
             }]
           }]
         })
@@ -117,7 +117,7 @@ export const ChatInterface = () => {
             <Bot className="w-6 h-6 text-white" />
           </div>
           <div>
-            <h3 className="font-semibold text-lg gradient-text">Bed Raj Khadka's AI Assistant</h3>
+            <h3 className="font-semibold text-lg gradient-text">IEC's AI Assistant</h3>
             <p className="text-sm text-muted-foreground">Powered by Google Gemini</p>
           </div>
         </div>
